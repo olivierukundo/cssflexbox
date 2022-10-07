@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: block;
+    margin-bottom: 10px;
+    text-align: end;
+}
+
+.heading{
+    background-color: #06283D;
+    color: white;
+}
+.text0{float: left;
+    margin-top: 100px;
+}
+
+h1{
+    font-size: large;
+}
+.img0{
+    width: 70%;
+    height: auto;
+    margin-left: 140px;
+}
+
+.trends{
+    background-color: #cacaca;
+    margin: 50px;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+.text{
+    background-color: #cacaca;
+    font-size: 19px;
+    padding: 18px;
+    margin: 20px;
+    color: white;
+}
+
+.texts-1{
+    border-right: blue 2px solid;
+}
+.texts-2{
+    border-right: blue 2px solid;
+}
+.texts-3{
+    border-right: blue 2px solid;
+}
+.texts-4{
+    border-right: blue 2px solid;
+}
+.texts-5{
+    border-right: blue 2px solid;
+}
+
+.headline{
+    font-size: 20px;
+}
+.first{
+    display: flex;
+    padding: 10px;
+    margin: 20px;
+}
+
+.responsive1{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.second{
+    display: flex;
+    padding: 10px;
+    margin: 20px;
+}
+
+.Third{
+    display: flex;
+    padding: 10px;
+    margin: 20px;
+}
+
+/* .invitation{
+display: flex;
+} */
+h6{
+    font-size: 100ppx;
+    text-align: center;
+    display: block;
+    font-weight: bolder;
+}
+
+.responsive{
+    width: 100%;
+    padding: 10px;
+    height: auto;
+}
+.footer{
+    background-color: #06283D;
+    padding: 70px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.new{
+    margin: 5px;
+    display: flex;
+    position: relative;
+}
+/* .newbi{
+    width: 50%;
+    padding: 20px;
+} */
+
+.content11{
+    position: absolute;
+    top: 75%;
+    color: white;
+    margin-left: 3%;
+}
+
+h2{
+    text-align: center;
+}
+
+.responsive2{
+    width: 90%;
+    margin-left: 50px;
+}
+
+
+@media screen and (max-width: 1010){
+    .heading{
+        width: auto;
+    }
+    .text0{float: left;
+        margin-top: 50px;
+    }
+    
+    h1{
+        font-size: large;
+    }
+    .img0{
+        width: 70%;
+        height: auto;
+        margin-left: 140px;
+        top: 10%;
+    }
+    .trends{
+        display: flex;
+        justify-content: ;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
